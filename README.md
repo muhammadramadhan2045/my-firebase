@@ -1,16 +1,71 @@
-# myfirebase
+# MyFirebase 🚀  
 
-A new Flutter project.
+A Flutter project demonstrating Firebase integration with **Riverpod** state management. It features authentication, Firestore database, responsive UI, and follows a clean architecture approach.
 
-## Getting Started
+![Project Banner](assets/images/banner.png) <!-- Replace with your actual image path -->
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ **Firebase Authentication** (Email & Password)
+- ✅ **Cloud Firestore** Integration
+- ✅ **Riverpod** State Management
+- ✅ **Responsive Layout** with `Sizer`
+- ✅ **Animated Bottom Navigation**
+- ✅ **Clean Architecture Structure**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Screenshots
+
+| Login Screen | SignUp Screen | Profile Screen |
+|--------------|-------------|----------------|
+| ![Login](assets/images/login.png) | ![SignUp](assets/images/signup.png) | ![Home](assets/images/home.png) |
+
+> _Make sure to replace the above image paths with your actual asset paths._
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter**: ^3.24.5
+- **State Management**: `riverpod: ^2.6.1`
+- **Firebase Packages**:
+  - `firebase_core: ^3.10.1`
+  - `firebase_auth: ^5.4.1`
+  - `cloud_firestore: ^5.6.2`
+- **UI Enhancements**:
+  - `sizer: ^3.0.5` – Responsive design
+  - `animated_bottom_navigation_bar: ^1.3.3` 
+
+---
+
+## 📁 Project Structure
+lib/
+├── models/                # Data models
+│   └── user_firestore.dart
+│
+├── provider/              # State management using Providers
+│   ├── auth_provider.dart
+│   └── profile_provider.dart
+│
+├── screens/               # UI Screens
+│   ├── auth/              # Authentication-related screens
+│   │   ├── login/
+│   │   └── signup/
+│   └── home/              # Main app screens
+│       ├── dashboard_screen.dart
+│       └── home_screen.dart
+│
+├── utils/                 # Utility files and constants
+│   └── constants.dart
+│
+├── widgets/               # Reusable UI components
+│
+├── firebase_options.dart  # Firebase configuration
+└── main.dart              # Entry point of the application
+
+
+
+Made with ❤️ by Muhammad Ramadhan
