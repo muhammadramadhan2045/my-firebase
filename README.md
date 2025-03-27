@@ -2,7 +2,6 @@
 
 A Flutter project demonstrating Firebase integration with **Riverpod** state management. It features authentication, Firestore database, responsive UI, and follows a clean architecture approach.
 
-![Project Banner](assets/images/banner.png) <!-- Replace with your actual image path -->
 
 ---
 
@@ -41,30 +40,10 @@ A Flutter project demonstrating Firebase integration with **Riverpod** state man
 
 ---
 
-## 📁 Project Structure
-lib/
-├── models/                # Data models
-│   └── user_firestore.dart
-│
-├── provider/              # State management using Providers
-│   ├── auth_provider.dart
-│   └── profile_provider.dart
-│
-├── screens/               # UI Screens
-│   ├── auth/              # Authentication-related screens
-│   │   ├── login/
-│   │   └── signup/
-│   └── home/              # Main app screens
-│       ├── dashboard_screen.dart
-│       └── home_screen.dart
-│
-├── utils/                 # Utility files and constants
-│   └── constants.dart
-│
-├── widgets/               # Reusable UI components
-│
-├── firebase_options.dart  # Firebase configuration
-└── main.dart              # Entry point of the application
+## 📁Project Structure
+<pre> ``` lib/ ├── models/ # Data models │ └── user_firestore.dart # User data model │ ├── provider/ # State management │ ├── auth_provider.dart # Authentication state │ └── profile_provider.dart # Profile state │ ├── screens/ # UI Screens │ ├── auth/ # Auth flows │ │ ├── login/ # Login screen │ │ └── signup/ # Signup screen │ │ │ └── home/ # Main app │ ├── dashboard_screen.dart │ └── home_screen.dart │ ├── utils/ # Utilities │ ├── constants.dart # App constants │ └── widgets/ # Reusable components │ ├── firebase_options.dart # Firebase config └── main.dart # App entry point ``` </pre>
+
+---
 
 
 
